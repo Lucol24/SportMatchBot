@@ -1,0 +1,191 @@
+{
+  "start": "👋 Welcome to SportMatchBot! 👋\n\nYour assistant for tracking friendly matches.\n\nUse /match to register a result, /info for current standings, or /help for all commands.",
+  "help": "ℹ️ Available Commands:\n\n/start - Show the welcome message\n/match - ⚽ Register a new match\n/undo - 🚫 Delete the previous match registered\n/info - 🏆 View standings and top scorers\n/help - ❓ Show this help message",
+  "chooseLanguage": "🌍 Please select the language you prefer:",
+  "languageChanged": "🌍 Language successfully changed to {0}!",
+  "languageNotFound": "⚠️ Language not found. Please try again.",
+  "chooseSportInfo": "📊 Select the sport to view standings and top scorers:",
+
+  "soccer": {
+    "name": "Soccer",
+    "emoji": "⚽"
+  },
+  "basketball": {
+    "name": "Basketball",
+    "emoji": "🏀"
+  },
+  "volleyball": {
+    "name": "Volleyball",
+    "emoji": "🏐"
+  },
+  "padel": {
+    "name": "Padel",
+    "emoji": "🎾"
+  },
+  "tennis": {
+    "name": "Tennis",
+    "emoji": "🎾"
+  },
+  "rugby": {
+    "name": "Rugby",
+    "emoji": "🏉"
+  },
+  "baseball": {
+    "name": "Baseball",
+    "emoji": "⚾"
+  },
+  "cricket": {
+    "name": "Cricket",
+    "emoji": "🏏"
+  },
+  "handball": {
+    "name": "Handball",
+    "emoji": "🤾‍♂️"
+  },
+  "golf": {
+    "name": "Golf",
+    "emoji": "⛳"
+  },
+  "table tennis": {
+    "name": "Table Tennis",
+    "emoji": "🏓"
+  },
+  "swimming": {
+    "name": "Swimming",
+    "emoji": "🏊‍♂️"
+  },
+  "cycling": {
+    "name": "Cycling",
+    "emoji": "🚴‍♂️"
+  },
+  "boxing": {
+    "name": "Boxing",
+    "emoji": "🥊"
+  },
+  "mma": {
+    "name": "MMA",
+    "emoji": "🥋"
+  },
+  "track and field": {
+    "name": "Track and Field",
+    "emoji": "🏃‍♂️"
+  },
+  "badminton": {
+    "name": "Badminton",
+    "emoji": "🏸"
+  },
+  "skiing": {
+    "name": "Skiing",
+    "emoji": "⛷"
+  },
+  "snowboarding": {
+    "name": "Snowboarding",
+    "emoji": "🏂"
+  },
+  "surfing": {
+    "name": "Surfing",
+    "emoji": "🏄‍♂️"
+  },
+  "ice hockey": {
+    "name": "Ice Hockey",
+    "emoji": "🏒"
+  },
+  "field hockey": {
+    "name": "Field Hockey",
+    "emoji": "🏑"
+  },
+  "darts": {
+    "name": "Darts",
+    "emoji": "🎯"
+  },
+  "racquetball": {
+    "name": "Racquetball",
+    "emoji": "🏸"
+  },
+  "squash": {
+    "name": "Squash",
+    "emoji": "🏸"
+  },
+  "archery": {
+    "name": "Archery",
+    "emoji": "🏹"
+  },
+  "motorsports": {
+    "name": "Motorsports",
+    "emoji": "🏎"
+  },
+  "equestrian": {
+    "name": "Equestrian",
+    "emoji": "🏇"
+  },
+  "fencing": {
+    "name": "Fencing",
+    "emoji": "🤺"
+  },
+  "water polo": {
+    "name": "Water Polo",
+    "emoji": "🤽‍♂️"
+  },
+
+  "noScorersFound": "No scorers found for this sport.",
+  "scorersDisabled": "Scorers are not enabled for this sport.",
+  "scorersNotDisplayed": "Scorers are not displayed for this sport. Check the EnableScorers property in the teams.json file.",
+  "goals": "Goals",
+  "pts": "Points",
+  "pointsScored": "Points Scored",
+  "gd": "Goal Difference",
+  "diffPoints": "Point Difference",
+  "noStandingsAvailable": "No standings available.",
+  
+  "selectSportMatch": "🏅 Select the sport for the match:",
+  "noTeamsFound": "⚠️ No teams found for this sport.",
+  "noSecondTeamAvailable": "⚠️ Only one team found for this sport. Unable to select a second team.",
+  "selectTeam1Message": "Select Team 1:",
+  "selectTeam2Message": "Select Team 2:",
+
+  "scorePromptMessage": "🏅 Set the match score:",
+  "enterScoreFor": "Enter score for",
+  "team1": "Team 1",
+  "team2": "Team 2",
+  "invalidScore": "⚠️ Invalid score entered. Please try again.",
+
+  "scorerSkip": "⚠️ Scorer selection skipped.",
+  "scorerAdded": "✔️ Scorer added:",
+  "scorersAlreadyCompleted": "⚠️ Scorers for {0} are already completed.",
+  
+  "standings": "Standings",
+  "topScorers": "Top Scorers",
+  
+  "points": "Points",
+  "gamesPlayed": "Games Played",
+  
+  "invalidMatchData": "⚠️ Unable to confirm the match. Please ensure that all information is correct.",
+  "matchSaved": "✅ Match Saved! ✅",
+  "updatedStandings": "Updated Standings",
+
+  "matchUndone": "✅ The last match you entered has been successfully undone.",
+  "noMatchToUndo": "⚠️ No match found to undo.",
+  "matchCancelled": "🚫 Match registration has been cancelled.",
+  
+  "scorersConfirmed": "👍 Scorers for",
+  "scorersSoFar": "So far",
+  "selectTeam2Scorers": "Now select scorers for",
+  "unknownTeam": "Unknown Team",
+
+  "internalErrorIncompleteState": "❌ Internal error: Incomplete match state. Please try again with /match.",
+  "internalErrorZeroGoals": "❌ Internal error: Attempt to select scorers for a team with 0 goals.\n",
+  "noPlayersForTeam": "⚠️ No players are registered for this team or the EnableScorers property is set to false. Scorers cannot be assigned automatically for this team. Please ensure there are players registered or that scorers are enabled.\n",
+  "skipScorer": "🚫 Skip scorer selection",
+  "selectScorerPrompt": "🎯 Select scorer {0} of {1} for {2}:",
+  "soFar": "So far",
+
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "matchConfirmation": "Match Confirmation",
+  "matchScorers": "Match Scorers",
+
+  "invalidCallbackData": "⚠️ Invalid callback data received. Please try again.",
+  "unexpectedInput": "⚠️ Unexpected input for the current phase ({0}).",
+  "unknownCommand": "😕 I don't understand that command. Use /help for the list of commands.",
+  "generalError": "❌ An error occurred. Please try again with /help."
+}

@@ -1,0 +1,191 @@
+{
+  "start": "👋 ¡Bienvenido a SportMatchBot! 👋\n\nTu asistente para seguir partidos amistosos.\n\nUsa /match para registrar un resultado, /info para la clasificación actual, o /help para todos los comandos.",
+  "help": "ℹ️ Comandos disponibles:\n\n/start - Mostrar el mensaje de bienvenida\n/match - ⚽ Registrar un nuevo partido\n/undo - 🚫 Eliminar el último partido registrado\n/info - 🏆 Ver clasificación y máximos goleadores\n/help - ❓ Mostrar este mensaje de ayuda",
+  "chooseLanguage": "🌍 Por favor, selecciona el idioma que prefieras:",
+  "languageChanged": "🌍 ¡Idioma cambiado con éxito a {0}!",
+  "languageNotFound": "⚠️ Idioma no encontrado. Por favor, inténtalo de nuevo.",
+  "chooseSportInfo": "📊 Selecciona el deporte para ver la clasificación y máximos goleadores:",
+
+  "soccer": {
+    "name": "Fútbol",
+    "emoji": "⚽"
+  },
+  "basketball": {
+    "name": "Baloncesto",
+    "emoji": "🏀"
+  },
+  "volleyball": {
+    "name": "Voleibol",
+    "emoji": "🏐"
+  },
+  "padel": {
+    "name": "Pádel",
+    "emoji": "🎾"
+  },
+  "tennis": {
+    "name": "Tenis",
+    "emoji": "🎾"
+  },
+  "rugby": {
+    "name": "Rugby",
+    "emoji": "🏉"
+  },
+  "baseball": {
+    "name": "Béisbol",
+    "emoji": "⚾"
+  },
+  "cricket": {
+    "name": "Críquet",
+    "emoji": "🏏"
+  },
+  "handball": {
+    "name": "Balonmano",
+    "emoji": "🤾‍♂️"
+  },
+  "golf": {
+    "name": "Golf",
+    "emoji": "⛳"
+  },
+  "table tennis": {
+    "name": "Tenis de mesa",
+    "emoji": "🏓"
+  },
+  "swimming": {
+    "name": "Natación",
+    "emoji": "🏊‍♂️"
+  },
+  "cycling": {
+    "name": "Ciclismo",
+    "emoji": "🚴‍♂️"
+  },
+  "boxing": {
+    "name": "Boxeo",
+    "emoji": "🥊"
+  },
+  "mma": {
+    "name": "Artes marciales mixtas",
+    "emoji": "🥋"
+  },
+  "track and field": {
+    "name": "Atletismo",
+    "emoji": "🏃‍♂️"
+  },
+  "badminton": {
+    "name": "Bádminton",
+    "emoji": "🏸"
+  },
+  "skiing": {
+    "name": "Esquí",
+    "emoji": "⛷"
+  },
+  "snowboarding": {
+    "name": "Snowboard",
+    "emoji": "🏂"
+  },
+  "surfing": {
+    "name": "Surf",
+    "emoji": "🏄‍♂️"
+  },
+  "ice hockey": {
+    "name": "Hockey sobre hielo",
+    "emoji": "🏒"
+  },
+  "field hockey": {
+    "name": "Hockey sobre césped",
+    "emoji": "🏑"
+  },
+  "darts": {
+    "name": "Dardos",
+    "emoji": "🎯"
+  },
+  "racquetball": {
+    "name": "Racquetball",
+    "emoji": "🏸"
+  },
+  "squash": {
+    "name": "Squash",
+    "emoji": "🏸"
+  },
+  "archery": {
+    "name": "Tiro con arco",
+    "emoji": "🏹"
+  },
+  "motorsports": {
+    "name": "Motorsport",
+    "emoji": "🏎"
+  },
+  "equestrian": {
+    "name": "Equitación",
+    "emoji": "🏇"
+  },
+  "fencing": {
+    "name": "Esgrima",
+    "emoji": "🤺"
+  },
+  "water polo": {
+    "name": "Waterpolo",
+    "emoji": "🤽‍♂️"
+  },
+
+  "noScorersFound": "No se encontraron goleadores para este deporte.",
+  "scorersDisabled": "Los goleadores no están habilitados para este deporte.",
+  "scorersNotDisplayed": "Los goleadores no se muestran para este deporte. Comprueba la propiedad EnableScorers en el archivo teams.json.",
+  "goals": "Goles",
+  "pts": "Puntos",
+  "pointsScored": "Puntos anotados",
+  "gd": "Diferencia de goles",
+  "diffPoints": "Diferencia de puntos",
+  "noStandingsAvailable": "No hay clasificaciones disponibles.",
+  
+  "selectSportMatch": "🏅 Selecciona el deporte para el partido:",
+  "noTeamsFound": "⚠️ No se encontraron equipos para este deporte.",
+  "noSecondTeamAvailable": "⚠️ Solo se encontró un equipo para este deporte. No es posible seleccionar un segundo equipo.",
+  "selectTeam1Message": "Selecciona el Equipo 1:",
+  "selectTeam2Message": "Selecciona el Equipo 2:",
+
+  "scorePromptMessage": "🏅 Establece el marcador del partido:",
+  "enterScoreFor": "Introduce el marcador para",
+  "team1": "Equipo 1",
+  "team2": "Equipo 2",
+  "invalidScore": "⚠️ Marcador no válido. Por favor, inténtalo de nuevo.",
+
+  "scorerSkip": "⚠️ Selección de goleador omitida.",
+  "scorerAdded": "✔️ Goleador añadido:",
+  "scorersAlreadyCompleted": "⚠️ Los goleadores para {0} ya están completos.",
+  
+  "standings": "Clasificación",
+  "topScorers": "Máximos goleadores",
+  
+  "points": "Puntos",
+  "gamesPlayed": "Partidos jugados",
+  
+  "invalidMatchData": "⚠️ No se puede confirmar el partido. Asegúrate de que toda la información es correcta.",
+  "matchSaved": "✅ ¡Partido guardado! ✅",
+  "updatedStandings": "Clasificación actualizada",
+
+  "matchUndone": "✅ El último partido que ingresaste ha sido deshecho con éxito.",
+  "noMatchToUndo": "⚠️ No hay ningún partido para deshacer.",
+  "matchCancelled": "🚫 El registro del partido ha sido cancelado.",
+  
+  "scorersConfirmed": "👍 Goleadores para",
+  "scorersSoFar": "Hasta ahora",
+  "selectTeam2Scorers": "Ahora selecciona goleadores para",
+  "unknownTeam": "Equipo desconocido",
+
+  "internalErrorIncompleteState": "❌ Error interno: Estado de partido incompleto. Por favor, inténtalo de nuevo con /match.",
+  "internalErrorZeroGoals": "❌ Error interno: Intento de seleccionar goleadores para un equipo con 0 goles.\n",
+  "noPlayersForTeam": "⚠️ No hay jugadores registrados para este equipo o la propiedad EnableScorers está desactivada. No se pueden asignar goleadores automáticamente para este equipo. Por favor, asegúrate de que hay jugadores registrados o que los goleadores están habilitados.\n",
+  "skipScorer": "🚫 Omitir selección de goleador",
+  "selectScorerPrompt": "🎯 Selecciona al goleador {0} de {1} para {2}:",
+  "soFar": "Hasta ahora",
+
+  "confirm": "Confirmar",
+  "cancel": "Cancelar",
+  "matchConfirmation": "Confirmación de partido",
+  "matchScorers": "Goleadores del partido",
+
+  "invalidCallbackData": "⚠️ Datos de callback no válidos recibidos. Por favor, inténtalo de nuevo.",
+  "unexpectedInput": "⚠️ Entrada inesperada para la fase actual ({0}).",
+  "unknownCommand": "😕 No entiendo ese comando. Usa /help para la lista de comandos.",
+  "generalError": "❌ Ha ocurrido un error. Por favor, inténtalo de nuevo con /help."
+}

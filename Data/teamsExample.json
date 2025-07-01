@@ -1,0 +1,116 @@
+[
+  {
+      "name": "Red",
+      "sport": "Soccer",
+      "players": ["Mario Rossi", "Luca Bianchi", "Marco Verdi"],
+      "enableScorers" : true
+  },
+  {
+      "name": "Blue",
+      "sport": "Soccer",
+      "players": ["Anna Neri", "Giulia Costa", "Simone Gallo"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Green",
+    "sport": "Soccer",
+    "players": ["Alessandro Rizzo", "Sofia Romano"],
+      "enableScorers" : true
+  },
+  {
+      "name": "Volley Stars",
+      "sport": "Volleyball",
+      "players": ["Elisa Mori", "Francesco Ferri", "Paolo Vinci"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Volleyball Champs",
+    "sport": "Volleyball",
+    "players": ["Alessandro Rizzo", "Sofia Romano"],
+      "enableScorers" : true
+  },
+  {
+      "name": "Smashers",
+      "sport": "Padel",
+      "players": ["Marco Rossi", "Giulia Bianchi"],
+      "enableScorers" : false
+  },
+  {
+    "name": "Padel Warriors",
+    "sport": "Padel",
+    "players": ["Anna Costa"],
+      "enableScorers" : false
+  },
+  {
+      "name": "Warriors",
+      "sport": "Basketball",
+      "players": ["Lorenzo Greco", "Chiara Fontana"],
+      "enableScorers" : true
+  },
+  {
+      "name": "Giants",
+      "sport": "Basketball",
+      "players": [],
+      "enableScorers" : true
+  },
+  {
+      "name": "Rugby Legends",
+      "sport": "Rugby",
+      "players": ["Marco Rossi", "Giulia Bianchi"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Rugby Warriors",
+    "sport": "Rugby",
+    "players": [],
+      "enableScorers" : true
+  },
+  {
+      "name": "Baseball Stars",
+      "sport": "Baseball",
+      "players": ["Luca Verdi", "Sofia Neri"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Baseball Champs",
+    "sport": "Baseball",
+    "players": [],
+      "enableScorers" : true
+  },
+  {
+      "name": "Cricket Kings",
+      "sport": "Cricket",
+      "players": ["Mario Gallo", "Anna Costa"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Cricket Warriors",
+    "sport": "Cricket",
+    "players": [],
+      "enableScorers" : true
+  },
+  {
+      "name": "Handball Heroes",
+      "sport": "Handball",
+      "players": ["Francesco Rizzo", "Elisa Romano"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Handball Champs",
+    "sport": "Handball",
+    "players": [],
+      "enableScorers" : true
+  },
+  {
+      "name": "Golf Masters",
+      "sport": "Golf",
+      "players": ["Marco Greco", "Giulia Ferri"],
+      "enableScorers" : true
+  },
+  {
+    "name": "Golf Warriors",
+    "sport": "Golf",
+    "players": [],
+      "enableScorers" : true
+  }
+]
